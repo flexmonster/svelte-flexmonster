@@ -5,7 +5,7 @@
 	"description": "Svelte wrapper for Flexmonster Pivot Table and Charts",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && npm run prepack",
+		"build": "npm run prepack",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"prepack": "svelte-kit sync && svelte-package && publint"
@@ -26,7 +26,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/flexmonster/svelte-flexmonster"
+		"url": "git+https://github.com/flexmonster/svelte-flexmonster.git"
 	},
 	"bugs": {
 		"url": "https://flexmonster.com/forum/"
@@ -50,7 +50,8 @@
 		}
 	},
 	"peerDependencies": {
-		"svelte": "^5.0.0"
+		"svelte": "^5.0.0",
+		"flexmonster": "2.9.102"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
@@ -61,5 +62,8 @@
 		"svelte": "^5.0.0",
 		"typescript": "^5.3.2",
 		"vite": "^6.2.6"
+	},
+	"dependencies": {
+		"flexmonster": "2.9.102"
 	}
 }
