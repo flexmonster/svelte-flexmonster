@@ -4,64 +4,84 @@
 
     let gridContainer;
     // A reference to the Flexmonster instance
-    export let pivot: Pivot;
+    export let pivot: Pivot = undefined;
     // Events
-    export let afterchartdraw: () => void;
-    export let aftergriddraw: (param: object) => void
-    export let beforegriddraw: (param: object) => void
-    export let beforetoolbarcreated: (toolbar: Flexmonster.Toolbar) => void;
-    export let cellclick: (cell: Flexmonster.CellData) => void;
-    export let celldoubleclick: (cell: Flexmonster.CellData) => void;
-    export let chartclick: (data: Flexmonster.ChartData) => void;
-    export let datachanged: (param: object) => void;
-    export let dataerror: (event?: ErrorEvent) => void;
-    export let datafilecancelled: () => void;
-    export let dataloaded: () => void;
-    export let drillthroughclose: () => void;
-    export let drillthroughopen: (cell: Flexmonster.CellData | Flexmonster.ChartData) => void;
-    export let exportcomplete: () => void;
-    export let exportstart: () => void;
-    export let fieldslistclose: () => void;
-    export let fieldslistopen: () => void;
-    export let filterclose: () => void;
-    export let filteropen: (param: object) => void;
-    export let loadingdata: () => void;
-    export let loadinglocalization: () => void;
-    export let loadingolapstructure: () => void;
-    export let loadingreportfile: () => void;
-    export let localizationerror: () => void;
-    export let localizationloaded: () => void;
-    export let olapstructureerror: (event?: ErrorEvent) => void;
-    export let olapstructureloaded: () => void;
-    export let openingreportfile: () => void;
-    export let printcomplete: () => void;
-    export let printstart: () => void;
-    export let querycomplete: () => void;
-    export let queryerror: (event?: ErrorEvent) => void;
-    export let ready: () => void;
-    export let reportchange: () => void;
-    export let reportcomplete: () => void;
-    export let reportfilecancelled: () => void;
-    export let reportfileerror: () => void;
-    export let runningquery: () => void;
-    export let unauthorizederror: (done: Flexmonster.UnauthorizedErrorHandler) => void;
-    export let update: () => void;
+    export let afterchartdraw: () => void = undefined;
+    export let aftergriddraw: (param: object) => void = undefined;
+    export let beforegriddraw: (param: object) => void = undefined;
+    export let beforetoolbarcreated: (
+        toolbar: Flexmonster.Toolbar,
+    ) => void = undefined;
+    export let cellclick: (cell: Flexmonster.CellData) => void = undefined;
+    export let celldoubleclick: (cell: Flexmonster.CellData) => void = undefined;
+    export let chartclick: (data: Flexmonster.ChartData) => void = undefined;
+    export let datachanged: (param: object) => void = undefined;
+    export let dataerror: (event?: ErrorEvent) => void = undefined;
+    export let datafilecancelled: () => void = undefined;
+    export let dataloaded: () => void = undefined;
+    export let drillthroughclose: () => void = undefined;
+    export let drillthroughopen: (
+        cell: Flexmonster.CellData | Flexmonster.ChartData,
+    ) => void = undefined;
+    export let exportcomplete: () => void = undefined;
+    export let exportstart: () => void = undefined;
+    export let fieldslistclose: () => void = undefined;
+    export let fieldslistopen: () => void = undefined;
+    export let filterclose: () => void = undefined;
+    export let filteropen: (param: object) => void = undefined;
+    export let loadingdata: () => void = undefined;
+    export let loadinglocalization: () => void = undefined;
+    export let loadingolapstructure: () => void = undefined;
+    export let loadingreportfile: () => void = undefined;
+    export let localizationerror: () => void = undefined;
+    export let localizationloaded: () => void = undefined;
+    export let olapstructureerror: (event?: ErrorEvent) => void = undefined;
+    export let olapstructureloaded: () => void = undefined;
+    export let openingreportfile: () => void = undefined;
+    export let printcomplete: () => void = undefined;
+    export let printstart: () => void = undefined;
+    export let querycomplete: () => void = undefined;
+    export let queryerror: (event?: ErrorEvent) => void = undefined;
+    export let ready: () => void = undefined;
+    export let reportchange: () => void = undefined;
+    export let reportcomplete: () => void = undefined;
+    export let reportfilecancelled: () => void = undefined;
+    export let reportfileerror: () => void = undefined;
+    export let runningquery: () => void = undefined;
+    export let unauthorizederror: (
+        done: Flexmonster.UnauthorizedErrorHandler,
+    ) => void = undefined;
+    export let update: () => void = undefined;
     // Parameters
-    export let toolbar: boolean;
-    export let licenseKey: string | string[];
-    export let licenseFilePath: string;
-    export let width: string | number;
-    export let height: string | number;
-    export let componentFolder: string;
-    export let report: Flexmonster.Report | string;
-    export let shareReportConnection: Flexmonster.APIClientOptions;
-    export let global: Flexmonster.Report;
-    export let accessibility: Flexmonster.AccessibilityOptions;
-    export let customizeAPIRequest: (request: Object) => Object;
-    export let customizeCell: (cell: Flexmonster.CellBuilder, data: Flexmonster.CellData) => void;
-    export let customizeChartElement: (element: Element, data: Flexmonster.ChartData | Flexmonster.ChartLegendItemData) => void;
-    export let customizeContextMenu: (cell: Flexmonster.ContextMenuItem[], data: Flexmonster.CellData | Flexmonster.ChartData, viewType: string) => Flexmonster.ContextMenuItem[];
-    export let sortFieldsList: (first: Flexmonster.FieldsListSortingItem, second: Flexmonster.FieldsListSortingItem, fieldsListType: string) => number;
+    export let toolbar: boolean = false;
+    export let licenseKey: string | string[] = undefined;
+    export let licenseFilePath: string = undefined;
+    export let width: string | number = undefined;
+    export let height: string | number = undefined;
+    export let componentFolder: string = undefined;
+    export let report: Flexmonster.Report | string = undefined;
+    export let shareReportConnection: Flexmonster.APIClientOptions = undefined;
+    export let global: Flexmonster.Report = undefined;
+    export let accessibility: Flexmonster.AccessibilityOptions = undefined;
+    export let customizeAPIRequest: (request: Object) => Object = undefined;
+    export let customizeCell: (
+        cell: Flexmonster.CellBuilder,
+        data: Flexmonster.CellData,
+    ) => void = undefined;
+    export let customizeChartElement: (
+        element: Element,
+        data: Flexmonster.ChartData | Flexmonster.ChartLegendItemData,
+    ) => void = undefined;
+    export let customizeContextMenu: (
+        cell: Flexmonster.ContextMenuItem[],
+        data: Flexmonster.CellData | Flexmonster.ChartData,
+        viewType: string,
+    ) => Flexmonster.ContextMenuItem[] = undefined;
+    export let sortFieldsList: (
+        first: Flexmonster.FieldsListSortingItem,
+        second: Flexmonster.FieldsListSortingItem,
+        fieldsListType: string,
+    ) => number = undefined;
 
     onMount(async () => {
         const module = await import("flexmonster");
