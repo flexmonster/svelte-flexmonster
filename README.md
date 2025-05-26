@@ -1,5 +1,5 @@
 # Svelte pivot table | Flexmonster Pivot Table & Charts wrapper for Svelte
-<!-- [![Flexmonster Pivot Table & Charts](https://static.flexmonster.com/uploads/2023/09/08090559/svelte.png)](https://www.flexmonster.com?r=wrap_svelte) -->
+[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/readmes/svelte.png)](https://www.flexmonster.com?r=wrap_svelte)
 Website: [flexmonster.com](https://www.flexmonster.com?r=wrap_svelte)
 
 [![NPM](https://img.shields.io/npm/v/svelte-flexmonster)](https://www.npmjs.com/package/svelte-flexmonster)
