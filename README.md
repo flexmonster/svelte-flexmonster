@@ -8,7 +8,7 @@ Website: [flexmonster.com](https://www.flexmonster.com?r=wrap_svelte)
 
 ## Flexmonster Pivot Table & Charts
 
-Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Svelte data visualization project. The tool supports popular frameworks like Svelte, React, Vue, Blazor, Angular, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap_svelte). Also, Flexmonster connects to any data source, including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
+Flexmonster Pivot Table & Charts is a powerful and fully customizable JavaScript component for web reporting. It is packed with all core features for data analysis and can easily become a part of your Svelte data visualization project. The tool supports popular frameworks like React, Vue, Blazor, Angular, and [more](https://www.flexmonster.com/doc/available-tutorials-integration?r=wrap_svelte). Also, Flexmonster connects to any data source, including SQL and NoSQL databases, JSON and CSV files, OLAP cubes, and Elasticsearch. 
 
 This package is a [Flexmonster Pivot](https://www.flexmonster.com?r=wrap_svelte) wrapper for [Svelte](https://svelte.dev/) applications.
 
@@ -23,19 +23,19 @@ Table of contents:
 
 ## Integration
 
-Flexmonster documentation provides a detailed step-by-step guide on [іntegration with Svelte]().
+Flexmonster documentation provides a detailed step-by-step guide on [іntegration with Svelte](https://www.flexmonster.com/doc/integration-with-svelte/).
 
 ## Usage
 
-The wrapper provides  the  Flexmonster component to add the pivot table to the Svelte project. Read more about the available props and how to use them in the [the Flexmonster component]() documentation.
+The wrapper provides  the  &lt;Flexmonster&gt; component to add the pivot table to the Svelte project. Read more about the available props and how to use them in [the &lt;Flexmonster&gt; component](https://www.flexmonster.com/doc/flexmonster-component-for-svelte/) documentation.
 
-Explore the available [methods and events]() to learn the specifics of using and customizing Flexmonster in a Svelte application.
+Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-svelte/) to learn the specifics of using and customizing Flexmonster in a Svelte application.
 
 ## Sample project
 
-If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project]() with live demos of the most popular use cases. Visit the [usage examples documentation]() page to learn more about how the cases were implemented in Svelte project.
+If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte) with live demos of the most popular use cases. Visit the [usage examples documentation](https://www.flexmonster.com/doc/integration-with-svelte/#usage-examples) page to learn more about how the cases were implemented in the Svelte project.
 
-In our documentation, you can find [a guide for the sample Svelte application](). There, you can learn how to run it and what's inside.
+In our documentation, you can find [a guide for the sample Svelte application](https://www.flexmonster.com/doc/sample-svelte-project/). There, you can learn how to run it and what's inside.
 
 ## Support and feedback
 
