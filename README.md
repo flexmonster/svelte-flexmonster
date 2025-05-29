@@ -23,19 +23,19 @@ Table of contents:
 
 ## Integration
 
-Flexmonster documentation provides a detailed step-by-step guide on [іntegration with Svelte](https://www.flexmonster.com/doc/integration-with-svelte/).
+Flexmonster documentation provides a detailed step-by-step guide on [іntegration with Svelte](https://www.flexmonster.com/doc/integration-with-svelte?r=wrap_svelte).
 
 ## Usage
 
-The wrapper provides  the  `<Flexmonster>` component to add the pivot table to the Svelte project. Read more about the available props and how to use them in [the &lt;Flexmonster&gt; component](https://www.flexmonster.com/doc/flexmonster-component-for-svelte/) documentation.
+The wrapper provides  the  `<Flexmonster>` component to add the pivot table to the Svelte project. Read more about the available props and how to use them in [the &lt;Flexmonster&gt; component](https://www.flexmonster.com/doc/flexmonster-component-for-svelte?r=wrap_svelte) documentation.
 
-Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-svelte/) to learn the specifics of using and customizing Flexmonster in a Svelte application.
+Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-svelte?r=wrap_svelte) to learn the specifics of using and customizing Flexmonster in a Svelte application.
 
 ## Sample project
 
-If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte) with live demos of the most popular use cases. Visit the [usage examples documentation](https://www.flexmonster.com/doc/usage-examples-svelte/) page to learn more about how the cases were implemented in the Svelte project.
+If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte?r=wrap_svelte) with live demos of the most popular use cases. Visit the [usage examples documentation](https://www.flexmonster.com/doc/usage-examples-svelte?r=wrap_svelte) page to learn more about how the cases were implemented in the Svelte project.
 
-In our documentation, you can find [a guide for the sample Svelte application](https://www.flexmonster.com/doc/sample-svelte-project/). There, you can learn how to run it and what's inside.
+In our documentation, you can find [a guide for the sample Svelte application](https://www.flexmonster.com/doc/sample-svelte-project?r=wrap_svelte). There, you can learn how to run it and what's inside.
 
 ## Support and feedback
 
