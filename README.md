@@ -27,7 +27,7 @@ Flexmonster documentation provides a detailed step-by-step guide on [іntegratio
 
 ## Usage
 
-The wrapper provides  the  &lt;Flexmonster&gt; component to add the pivot table to the Svelte project. Read more about the available props and how to use them in [the &lt;Flexmonster&gt; component](https://www.flexmonster.com/doc/flexmonster-component-for-svelte/) documentation.
+The wrapper provides  the  `<Flexmonster>` component to add the pivot table to the Svelte project. Read more about the available props and how to use them in [the &lt;Flexmonster&gt; component](https://www.flexmonster.com/doc/flexmonster-component-for-svelte/) documentation.
 
 Explore the available [methods and events](https://www.flexmonster.com/doc/using-methods-and-events-svelte/) to learn the specifics of using and customizing Flexmonster in a Svelte application.
 
