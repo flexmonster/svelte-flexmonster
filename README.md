@@ -33,7 +33,7 @@ Explore the available [methods and events](https://www.flexmonster.com/doc/using
 
 ## Sample project
 
-If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte) with live demos of the most popular use cases. Visit the [usage examples documentation](https://www.flexmonster.com/doc/integration-with-svelte/#usage-examples) page to learn more about how the cases were implemented in the Svelte project.
+If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte) with live demos of the most popular use cases. Visit the [usage examples documentation](https://www.flexmonster.com/doc/usage-examples-svelte/) page to learn more about how the cases were implemented in the Svelte project.
 
 In our documentation, you can find [a guide for the sample Svelte application](https://www.flexmonster.com/doc/sample-svelte-project/). There, you can learn how to run it and what's inside.
 
