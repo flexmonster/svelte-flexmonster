@@ -27,7 +27,7 @@ Flexmonster documentation provides a detailed step-by-step guide on [іntegratio
 
 This tutorial is also available in video format on our YouTube channel:
 
-[![Svelte video tutorial](https://static.flexmonster.com/uploads/2025/08/29154220/Screenshot-2025-08-29-at-16.39.00.png)](https://youtu.be/rLJ5cyOVwl4?si=rDtMR64C75439gbg)
+[![Svelte video tutorial](https://static.flexmonster.com/uploads/2025/08/29154220/Screenshot-2025-08-29-at-16.39.00.png)](https://youtu.be/rLJ5cyOVwl4)
 
 ## Usage
 
