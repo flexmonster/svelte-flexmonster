@@ -27,7 +27,7 @@ Flexmonster documentation provides a detailed step-by-step guide on [іntegratio
 
 This tutorial is also available in video format on our YouTube channel:
 
-[![Svelte video tutorial](https://static.flexmonster.com/uploads/2025/08/29154220/Screenshot-2025-08-29-at-16.39.00.png)](https://youtu.be/rLJ5cyOVwl4)
+[![Svelte video tutorial](https://static.flexmonster.com/uploads/2025/09/02182843/svelte_preview.png)](https://youtu.be/rLJ5cyOVwl4)
 
 ## Usage
 
@@ -37,9 +37,9 @@ Explore the available [methods and events](https://www.flexmonster.com/doc/using
 
 ## Sample project
 
-If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte) with live demos of the most popular use cases. Visit the [Usage examples](https://www.flexmonster.com/doc/usage-examples-svelte?r=wrap_svelte) page to see how the cases were implemented in the Svelte project.
+If you look for some reference examples, our team prepared a ready-to-use [Svelte pivot grid sample project](https://github.com/flexmonster/pivot-svelte) with live demos of the most popular use cases. Visit the [Usage examples](https://www.flexmonster.com/doc/usage-examples-svelte?r=wrap_svelte) page to see how the cases were implemented in a Svelte project.
 
-In our documentation, you can also find a [guide for the sample Svelte application](https://www.flexmonster.com/doc/sample-svelte-project?r=wrap_svelte). There, you can learn how to run it and what's inside.
+In our documentation, you can also find a [guide for the sample Svelte application](https://www.flexmonster.com/doc/sample-svelte-project?r=wrap_svelte). There you can learn how to run it and what's inside.
 
 ## Support and feedback
 
