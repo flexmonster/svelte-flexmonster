@@ -1,7 +1,7 @@
 {
 	"name": "svelte-flexmonster",
 	"version": "2.9.112",
-	"license": "MIT",
+	"license": "https://www.flexmonster.com/software-license-agreement/",
 	"description": "Svelte wrapper for Flexmonster Pivot Table and Charts",
 	"scripts": {
 		"dev": "vite dev",
@@ -29,7 +29,7 @@
 		"url": "git+https://github.com/flexmonster/svelte-flexmonster.git"
 	},
 	"bugs": {
-		"url": "https://flexmonster.com/forum/"
+		"url": "https://flexmonster.com/technical-support/"
 	},
 	"homepage": "https://flexmonster.com/",
 	"files": [
