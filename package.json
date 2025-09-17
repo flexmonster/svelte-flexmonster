@@ -29,9 +29,9 @@
 		"url": "git+https://github.com/flexmonster/svelte-flexmonster.git"
 	},
 	"bugs": {
-		"url": "https://flexmonster.com/technical-support/"
+		"url": "https://flexmonster.com/technical-support"
 	},
-	"homepage": "https://flexmonster.com/",
+	"homepage": "https://flexmonster.com",
 	"files": [
 		"dist",
 		"!dist/**/*.test.*",
