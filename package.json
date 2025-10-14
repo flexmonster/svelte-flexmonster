@@ -1,6 +1,6 @@
 {
 	"name": "svelte-flexmonster",
-	"version": "2.9.114",
+	"version": "2.9.114-1",
 	"license": "https://www.flexmonster.com/software-license-agreement/",
 	"description": "Svelte wrapper for Flexmonster Pivot Table and Charts",
 	"scripts": {
